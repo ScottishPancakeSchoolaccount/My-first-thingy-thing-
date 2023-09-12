@@ -1,0 +1,12 @@
+body{
+background-color: #D0F4EE;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#mainHeading{
+    color: rgb(0, 108, 180);
+}
+
+.highlight{
+ color: rgb(0, 108, 180);
+}
