@@ -1,12 +1,50 @@
+/* Background, font */ 
 body{
-background-color: #D0F4EE;
+background-color: #6ab8ab;
 font-family: 'Times New Roman', Times, serif;
+margin: 0px;
 }
-
+/* colour of title*/ 
 #mainHeading{
     color: rgb(0, 108, 180);
 }
-
+/* highlighted colour*/
 .highlight{
  color: rgb(0, 108, 180);
+}
+
+.reset{
+    clear: both;
+}
+#funnyImage{
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+#socials{
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#hobbies{
+    width: 350px;
+    float: left;
+}
+#jeff{
+    float: left;
+}
+#introText{
+    width: 900px;
+    float: left;
+    margin: 0px 0px 30px 30px; 
+}
+#me{
+    float: left;
+    margin: 10px 0px 10px 5px;
+
+}
+/*Body colourand width of the body*/
+#pagecontainer{
+    width: 1401px;
+    margin: 0px auto 0px auto;
+    background-color: #aae4da;
 }
