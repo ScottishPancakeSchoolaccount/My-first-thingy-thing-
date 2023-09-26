@@ -1,50 +1,77 @@
-/* Background, font */ 
-body{
-background-color: #6ab8ab;
-font-family: 'Times New Roman', Times, serif;
-margin: 0px;
-}
-/* colour of title*/ 
-#mainHeading{
-    color: rgb(0, 108, 180);
-}
-/* highlighted colour*/
-.highlight{
- color: rgb(0, 108, 180);
+/* Background, font */
+body {
+    background-color: #6ab8ab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.reset{
+/* colour of title*/
+#mainHeading {
+    color: rgb(0, 108, 180);
+}
+
+/* highlighted colour*/
+.highlight {
+    color: rgb(0, 108, 180);
+}
+
+.reset {
     clear: both;
 }
-#funnyImage{
+
+#funnyImage {
     float: right;
     margin: 10px 10px 10px 10px;
 }
-#socials{
+
+#socials {
     float: left;
     margin: 10px 10px 10px 10px;
 }
 
-#hobbies{
+#hobbies {
     width: 350px;
     float: left;
+    margin: 20px;
 }
-#jeff{
+
+#jeff {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#introText {
+    width: 500px;
     float: left;
 }
-#introText{
-    width: 900px;
-    float: left;
-    margin: 0px 0px 30px 30px; 
-}
-#me{
+
+#me {
     float: left;
     margin: 10px 0px 10px 5px;
 
 }
+
 /*Body colourand width of the body*/
-#pagecontainer{
+#pagecontainer {
     width: 1401px;
     margin: 0px auto 0px auto;
     background-color: #aae4da;
+}
+
+#nav {
+    background-color: #aae4da;
+    height: 40px;
+}
+
+#nav a {
+    background-color: #55a799;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 5px 0px 0px;
+    display: block;
+    float: left;
+}
+
+#nav a:hover {
+    background-color: rgb(0, 108, 180);
 }
